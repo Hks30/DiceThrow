@@ -15,7 +15,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.rollDiceButton).setOnClickListener{
             ((supportFragmentManager
                 .findFragmentById(R.id.diceContainer)) as DieFragment).throwDie()
+
         }
+
     }
 }
 
